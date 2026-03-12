@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "320789821978",
+    "project_id": "playmusic-f65a3",
+    "storage_bucket": "playmusic-f65a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320789821978:android:6c0c9ae9f15c951a986fa3",
+        "android_client_info": {
+          "package_name": "com.example.playmusic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjt5b5UBoiCRrMAUp4FftpVoqC9nxPxHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

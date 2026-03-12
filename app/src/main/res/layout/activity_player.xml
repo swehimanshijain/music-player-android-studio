@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e0e0e0" >
+
+    <ImageView
+        android:id="@+id/musiclogo"
+        android:layout_width="234dp"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="82dp"
+        android:src="@drawable/music" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="494dp"
+        android:layout_marginRight="20dp" />
+
+    <LinearLayout
+        android:layout_width="232dp"
+        android:layout_height="114dp"
+        android:layout_below="@id/seekBar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="88dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/previousButton"
+            android:layout_width="62dp"
+            android:contentDescription="Previous Song"
+            android:layout_height="match_parent"
+            android:src="@drawable/previous" />
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="69dp"
+            android:contentDescription="Play"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="71dp"
+            android:contentDescription="Next Song"
+            android:layout_height="match_parent"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/favoriteButton"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        android:contentDescription="Add to favorites"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="46dp"
+        android:src="@drawable/favorites" />
+
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:contentDescription="Open menu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/popup_menu" />
+
+    <TextView
+        android:id="@+id/SongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="326dp"
+        android:text="Song Title"
+        tools:textSize="48dp" />
+
+</RelativeLayout>
+

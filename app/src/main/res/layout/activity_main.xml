@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <EditText
+        android:id="@+id/SearchEditText"
+        android:layout_width="371dp"
+        android:layout_height="62dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Search songs..."
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#757575" />
+
+    <ListView
+        android:id="@+id/SonglistView"
+        android:layout_width="wrap_content"
+        android:layout_height="565dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/favoritesButton"
+        android:layout_width="393dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#6200EE"
+        android:text="Favorites"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
