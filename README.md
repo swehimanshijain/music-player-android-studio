@@ -8,6 +8,7 @@ A simple Android Music Player application built using Java. The app allows users
 - Display songs using RecyclerView
 - Add and remove favorite songs
 - Simple and user-friendly interface
+- Search Songs
 
 ## Technologies Used
 
@@ -41,9 +42,3 @@ app/
 3. Sync Gradle.
 4. Run the app on an emulator or Android device.
 
-## Future Improvements
-
-- Search songs
-- Playlist support
-- Shuffle and repeat
-- Liked Songs
